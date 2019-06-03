@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Palette</title>
+</head>
+<body>
+    <div class="project">
+        <div class="paint-menu">
+                <input type="color" id="color">
+        </div>
+        <div class="frames-bar">
+            <button id="addFrame">Add new frame</button>
+        </div>
+        <div class="canvas-field">
+           <canvas id="canvas" width="600px" height="600px"></canvas>
+        </div>
+        <div class="canvas-preview">
+            <div id="animation-container"></div>
+            <button id='fullscreen-btn'>Open at fullscreen</button>
+            <div class="fps-container">
+                <div class="fps">FPS: 1</div>
+                <input type="range" min="1" max="24" step="1" value="1">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
