@@ -88,7 +88,7 @@ const fps = fpsInput.value;
             currentImg.style.height = "200px";
             if (animationContainer.childNodes.length > 0) animationContainer.removeChild(animationContainer.firstChild);
                 animationContainer.appendChild(currentImg);
-        }, 2000 / fps)
+        }, 1000 / fps)
         // if (timer) {
         //     clearInterval(timer);
         // }
